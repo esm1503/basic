@@ -84,6 +84,8 @@ function hilo() {
 
     }
 
+    // Takes a number and returns a random number between 1 and {max}
+    // @param max Number
     function randomNum(max) {
         return Math.ceil(Math.random() * max);
     }
